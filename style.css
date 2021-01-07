@@ -4,13 +4,14 @@ body{
 }
 h1{
     font-size: 50px;
+    
 }
 p{
     color: dimgray;
     padding-bottom: 20px;
 }
 .name-highlight{
-    color: orange;
+    color: #ff6600;
 }
 .half-width{
     width: 40%;
@@ -31,7 +32,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(tomato, brown);
+    background-image: linear-gradient(#ff8147, rgb(241, 111, 5));
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
@@ -72,3 +73,8 @@ h3{
     height: 100%;
 
 }
+.icon {
+    float: left;
+    width: 2%;
+    padding: 5px;
+  }
